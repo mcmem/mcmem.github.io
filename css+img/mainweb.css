@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('img/x0.jpg');
+  background-size: 2700px;
+}
+
+#header, #footer {
+  background: black;
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  line-height: 100px;
+  float: right;
+  color: red;
+  font-size: 50px;
+  font-family: "Bitcount Prop Double", system-ui;
+}
+
+#header {
+  border-bottom: 10px double red;
+  margin-bottom: 20px;
+}
+
+#footer {
+  border-top: 10px double red;
+  margin-top: 20px;
+}
+
+#text {
+  background: black;
+  height: 500px;
+  width: 70%;
+  text-align: center;
+  float: right;
+  color: #17a110;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 28px;
+  border: 10px double #17a110;
+  border-radius: 5%;
+  margin: 20px;
+  padding: 25px;
+}
+
+#side {
+  background: black;
+  height: 500px;
+  width: 15%;
+  text-align: center;
+  float: right;
+  color: #17a110;
+  border: 10px double #17a110;
+  border-radius: 5%;
+  margin: 20px;
+  padding: 15px;
+  list-style: none;
+}
+
+#side li {
+  display: block;
+  background: black;
+  border: 5px solid #4c0a7b;
+  margin: 7px;
+  cursor: pointer;
+}
+
+#side li:hover {
+  border-color: red;
+  color: red;
+}
+
+#images {
+  background: black;
+  height: 750px;
+  width: 90%;
+  border: 10px double #17a110;
+  border-radius: 5%;
+  margin: 50px;
+  padding: 30px;
+  float: right;
+}
+
+.picture {
+  display: block;
+  margin: 18px 37px;
+  border: 10px dotted #17a110;
+  float: left;
+}
+
+#up {
+  background: black;
+  height: 65px;
+  width: 65px;
+  text-align: center;
+  line-height: 60px;
+  position: fixed;
+  top: 8px;
+  left: 8px;
+  font-size: 30px;
+  border: 10px solid #4c0a7b;
+  border-radius: 50%
+}
+
+.beatifultext {
+  text-align: center;
+  width: 100%;
+  color: #17a110;
+  font-size: 50px;
+  font-family: "Bitcount Prop Double", system-ui;
+  margin: 7px;
+}
+
+
+#up:active {
+  border-color: red;
+}
